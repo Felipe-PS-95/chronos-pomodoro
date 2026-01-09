@@ -11,8 +11,6 @@ export function App() {
       <Heading attr={123} attr2="String">
         Olá Mundo 1
       </Heading>
-      <Heading>Olá Mundo 2</Heading>
-      <Heading>Olá Mundo 3</Heading>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
         repellat, odio dicta deserunt aliquid sequi consectetur unde modi iusto
