@@ -12,23 +12,12 @@ type HomeProps = {
 export function Home(props: HomeProps) {
   const { state, setState } = props;
 
-  function handleClick() {
-    setState((prevState) => {
-      return {
-        ...prevState,
-        currentCycle: 5,
-      };
-    });
-  }
-
   return (
     <MainTemplate>
       <Container>
-        <button onClick={handleClick}>Clicar</button>
-      </Container>
-
-      <Container>
-        <CountDown />
+        <CountDown
+          formattedSecondsRemaining={state.formatttedSecondsRemaining}
+        />
       </Container>
 
       <Container>
